@@ -27,7 +27,6 @@ while len(guess_state) < len(state_list):
         data_new.to_csv("learn.csv")
         break
 
-
     elif user_answer in state_list:
         tim = Turtle()
         tim.penup()
